@@ -29,7 +29,15 @@ To https://github.com/enterprise-actions/actions-permissions-test
 
 - **Enterprise setting:** Read repository contents and packages permissions
 - **Workflow permissions:** `permissions: write-all`
-- **Result:** Failure
+- **Result:** Success
+
+```plain
+[main 497de15] Adding test file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test-3-file.md
+To https://github.com/enterprise-actions/actions-permissions-test
+   85a26fc..497de15  main -> main
+```
 
 ## Test 4
 

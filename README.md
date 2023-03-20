@@ -11,7 +11,7 @@ I expect the following tests to have the listed results. In each test, I am upda
 | ---- | ------------------------------------------------- | ------------------------ | ------- | ------------- |
 | 1    | Read repository contents and packages permissions | None                     | Failure | Failure       |
 | 2    | Read repository contents and packages permissions | `contents: write`        | Failure | Success       |
-| 3    | Read repository contents and packages permissions | `permissions: write-all` | Failure |               |
+| 3    | Read repository contents and packages permissions | `permissions: write-all` | Failure | Success       |
 | 4    | Read and write permissions                        | None                     | Success |               |
 | 5    | Read and write permissions                        | `contents: write`        | Success |               |
 | 6    | Read and write permissions                        | `permissions: write-all` | Success |               |
