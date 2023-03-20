@@ -60,7 +60,11 @@ To https://github.com/enterprise-actions/actions-permissions-test
 - **Result:** Success
 
 ```plain
-
+[main a192043] Adding test file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test-5-file.md
+To https://github.com/enterprise-actions/actions-permissions-test
+   d6f3700..a192043  main -> main
 ```
 
 ## Test 6
