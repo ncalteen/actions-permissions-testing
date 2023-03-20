@@ -45,14 +45,30 @@ To https://github.com/enterprise-actions/actions-permissions-test
 - **Workflow permissions:** None
 - **Result:** Success
 
+```plain
+[main 980835f] Adding test file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test-4-file.md
+To https://github.com/enterprise-actions/actions-permissions-test
+   df18edf..980835f  main -> main
+```
+
 ## Test 5
 
 - **Enterprise setting:** Read and write permissions
 - **Workflow permissions:** `contents: write`
 - **Result:** Success
 
+```plain
+
+```
+
 ## Test 6
 
 - **Enterprise setting:** Read and write permissions
 - **Workflow permissions:** `permissions: write-all`
 - **Result:** Success
+
+```plain
+
+```
