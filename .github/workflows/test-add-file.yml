@@ -3,7 +3,8 @@ name: Creates a file and pushes to repo
 on:
   workflow_dispatch:
 
-permissions: write-all
+permissions:
+  statuses: write
 
 jobs:
   # Creates an empty markdown file and pushes to the repo
@@ -14,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Create file
-        run: touch test-6-file.md
+        run: touch test-7-file.md
 
       - name: Commit file
         run: |

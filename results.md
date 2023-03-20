@@ -74,5 +74,29 @@ To https://github.com/enterprise-actions/actions-permissions-test
 - **Result:** Success
 
 ```plain
+[main 56071fe] Adding test file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test-6-file.md
+To https://github.com/enterprise-actions/actions-permissions-test
+   c306da0..56071fe  main -> main
+```
+
+## Test 7
+
+- **Enterprise setting:** Read repository contents and packages permissions
+- **Workflow permissions:** `statuses: write`
+- **Result:**
+
+```plain
+
+```
+
+## Test 8
+
+- **Enterprise setting:** Read and write permissions
+- **Workflow permissions:** `statuses: write`
+- **Result:**
+
+```plain
 
 ```
