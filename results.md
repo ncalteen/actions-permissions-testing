@@ -85,10 +85,11 @@ To https://github.com/enterprise-actions/actions-permissions-test
 
 - **Enterprise setting:** Read repository contents and packages permissions
 - **Workflow permissions:** `statuses: write`
-- **Result:**
+- **Result:** Failure
 
 ```plain
-
+Error: fatal: repository 'https://github.com/enterprise-actions/actions-permissions-test/' not found
+The process '/usr/bin/git' failed with exit code 128
 ```
 
 ## Test 8

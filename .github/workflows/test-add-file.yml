@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Create file
-        run: touch test-7-file.md
+        run: touch test-8-file.md
 
       - name: Commit file
         run: |
