@@ -3,6 +3,10 @@ name: Creates a file and pushes to repo
 on:
   workflow_dispatch:
 
+# Test 2: Add write permissions
+permissions:
+  contents: write
+
 jobs:
   # Creates an empty markdown file and pushes to the repo
   create-file:
