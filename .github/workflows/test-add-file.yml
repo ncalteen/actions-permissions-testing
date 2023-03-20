@@ -1,0 +1,23 @@
+name: Creates a file and pushes to repo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  # Creates an empty markdown file and pushes to the repo
+  create-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Create file
+        run: touch test-1-file.md
+
+      - name: Commit file
+        run: |
+          git config --local user.email "ncalteen@github.com"
+          git config --local user.name "Nick Alteen"
+          git add .
+          git commit -m "Adding test file"
+          git push
