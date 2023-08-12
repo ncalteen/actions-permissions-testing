@@ -1,8 +1,10 @@
 # Actions Permissions Test
 
-Testing out using a workflow that has different permissions than the enterprise settings. The workflow simply tries to add an empty markdown file to the repo.
+Testing out using a workflow that has different permissions than the enterprise
+settings. The workflow simply tries to add an empty markdown file to the repo.
 
-I expect the following tests to have the listed results. In each test, I am updating the enterprise and workflow permissions.
+I expect the following tests to have the listed results. In each test, I am
+updating the enterprise and workflow permissions.
 
 - [Enforcing policies for GitHub Actions in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise)
 - [Assigning permissions to jobs](https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs)
